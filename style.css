@@ -1,0 +1,61 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.header {
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: justify;
+	width: 70%;
+	margin: 0 auto;
+	padding-top: .5em;
+	padding-right: 1em;
+	padding-left: .5em;
+	line-height: 150%;
+
+}
+
+.welcome {
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: right;
+	width: 70%;
+	margin: 0 auto;
+
+}
+
+.container {
+	clear: both;
+	width: 80%;
+	margin: 1.5em auto;
+	background-color: blue;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.item {
+	
+}
+
+.footer {
+	clear: both;
+	font-size: 12px;
+	font-family: sans-serif;
+	width: 70%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #0645AD;
+
+}
+
+a:visited {
+	text-decoration: none;
+	color: #0645AD;
+
+}
