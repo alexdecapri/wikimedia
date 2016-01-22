@@ -15,6 +15,7 @@ html, body {
 	padding-right: 1em;
 	padding-left: .5em;
 	line-height: 150%;
+	/*background-color: yellow;*/
 
 }
 
@@ -24,29 +25,29 @@ html, body {
 	text-align: right;
 	width: 70%;
 	margin: 0 auto;
+	padding-right: 1em;
+	padding-left: .5em;
 
 }
 
 .container {
 	clear: both;
 	width: 80%;
-	margin-top: 3.5em;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 50em;
-	vertical-align: middle;
-	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .item {
-	width: 150px;
+	width: 24.75%;
 	height: 150px;
 	max-height: 300px;
 	min-width: 150px;
 	float: left;
-	margin: 1.5%;
+	margin: 1.5% auto;
 	vertical-align: middle;
+	text-align: center;
 	display: inline-block;
+	/*line-height: 100px;*/
 }
 
 .footer {
@@ -56,6 +57,14 @@ html, body {
 	width: 70%;
 	margin: 10px auto;
 	text-align: center;
+	line-height: 2em;
+}
+
+.footer ul li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 5%;
+	line-height: 1.2em;
 }
 
 a {
@@ -77,6 +86,14 @@ img {
 	text-align: center;
 }
 
-@media (max-width: 815px) {
-
+/*@media (max-width: 815px) {
+	body {
+		background-color: blue;
+	}
 }
+
+@media (max-width: 500px) {
+	body {
+		background-color: green;
+	}
+}*/
